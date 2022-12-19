@@ -1,0 +1,106 @@
+SELECT * FROM `CocktailDetails`
+WHERE 	UPPER(`CocktailDetails`.`strIngredient1`) = UPPER('Roses sweetened lime juice') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Roses sweetened lime juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Roses sweetened lime juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient2`) = UPPER('Roses sweetened lime juice') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Roses sweetened lime juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Roses sweetened lime juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient3`) = UPPER('Roses sweetened lime juice') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Roses sweetened lime juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Roses sweetened lime juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient4`) = UPPER('Roses sweetened lime juice') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Roses sweetened lime juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Roses sweetened lime juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient5`) = UPPER('Roses sweetened lime juice') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Roses sweetened lime juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Roses sweetened lime juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient6`) = UPPER('Roses sweetened lime juice') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Roses sweetened lime juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Roses sweetened lime juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient7`) = UPPER('Roses sweetened lime juice') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Roses sweetened lime juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Roses sweetened lime juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient8`) = UPPER('Roses sweetened lime juice') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Roses sweetened lime juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Roses sweetened lime juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient9`) = UPPER('Roses sweetened lime juice') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Roses sweetened lime juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Roses sweetened lime juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient10`) = UPPER('Roses sweetened lime juice') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Roses sweetened lime juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Roses sweetened lime juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient11`) = UPPER('Roses sweetened lime juice') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Roses sweetened lime juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Roses sweetened lime juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient12`) = UPPER('Roses sweetened lime juice') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Roses sweetened lime juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Roses sweetened lime juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient13`) = UPPER('Roses sweetened lime juice') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Roses sweetened lime juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Roses sweetened lime juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient14`) = UPPER('Roses sweetened lime juice') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Roses sweetened lime juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Roses sweetened lime juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient15`) = UPPER('Roses sweetened lime juice') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Roses sweetened lime juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Roses sweetened lime juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Roses sweetened lime juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Roses sweetened lime juice-%')

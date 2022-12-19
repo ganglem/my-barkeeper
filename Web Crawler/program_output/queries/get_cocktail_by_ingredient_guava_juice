@@ -1,0 +1,106 @@
+SELECT * FROM `CocktailDetails`
+WHERE 	UPPER(`CocktailDetails`.`strIngredient1`) = UPPER('Guava juice') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Guava juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Guava juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient2`) = UPPER('Guava juice') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Guava juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Guava juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient3`) = UPPER('Guava juice') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Guava juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Guava juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient4`) = UPPER('Guava juice') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Guava juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Guava juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient5`) = UPPER('Guava juice') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Guava juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Guava juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient6`) = UPPER('Guava juice') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Guava juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Guava juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient7`) = UPPER('Guava juice') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Guava juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Guava juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient8`) = UPPER('Guava juice') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Guava juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Guava juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient9`) = UPPER('Guava juice') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Guava juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Guava juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient10`) = UPPER('Guava juice') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Guava juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Guava juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient11`) = UPPER('Guava juice') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Guava juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Guava juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient12`) = UPPER('Guava juice') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Guava juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Guava juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient13`) = UPPER('Guava juice') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Guava juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Guava juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient14`) = UPPER('Guava juice') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Guava juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Guava juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient15`) = UPPER('Guava juice') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Guava juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Guava juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Guava juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Guava juice-%')

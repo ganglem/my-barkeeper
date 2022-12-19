@@ -1,0 +1,106 @@
+SELECT * FROM `CocktailDetails`
+WHERE 	UPPER(`CocktailDetails`.`strIngredient1`) = UPPER('Everclear') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Everclear-%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Everclear-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient2`) = UPPER('Everclear') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Everclear-%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Everclear-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient3`) = UPPER('Everclear') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Everclear-%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Everclear-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient4`) = UPPER('Everclear') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Everclear-%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Everclear-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient5`) = UPPER('Everclear') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Everclear-%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Everclear-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient6`) = UPPER('Everclear') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Everclear-%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Everclear-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient7`) = UPPER('Everclear') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Everclear-%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Everclear-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient8`) = UPPER('Everclear') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Everclear-%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Everclear-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient9`) = UPPER('Everclear') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Everclear-%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Everclear-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient10`) = UPPER('Everclear') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Everclear-%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Everclear-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient11`) = UPPER('Everclear') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Everclear-%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Everclear-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient12`) = UPPER('Everclear') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Everclear-%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Everclear-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient13`) = UPPER('Everclear') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Everclear-%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Everclear-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient14`) = UPPER('Everclear') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Everclear-%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Everclear-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient15`) = UPPER('Everclear') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Everclear %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Everclear%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Everclear-%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Everclear-%')

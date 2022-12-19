@@ -1,0 +1,106 @@
+SELECT * FROM `CocktailDetails`
+WHERE 	UPPER(`CocktailDetails`.`strIngredient1`) = UPPER('Tawny port') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Tawny port-%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Tawny port-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient2`) = UPPER('Tawny port') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Tawny port-%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Tawny port-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient3`) = UPPER('Tawny port') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Tawny port-%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Tawny port-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient4`) = UPPER('Tawny port') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Tawny port-%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Tawny port-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient5`) = UPPER('Tawny port') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Tawny port-%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Tawny port-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient6`) = UPPER('Tawny port') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Tawny port-%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Tawny port-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient7`) = UPPER('Tawny port') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Tawny port-%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Tawny port-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient8`) = UPPER('Tawny port') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Tawny port-%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Tawny port-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient9`) = UPPER('Tawny port') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Tawny port-%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Tawny port-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient10`) = UPPER('Tawny port') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Tawny port-%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Tawny port-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient11`) = UPPER('Tawny port') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Tawny port-%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Tawny port-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient12`) = UPPER('Tawny port') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Tawny port-%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Tawny port-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient13`) = UPPER('Tawny port') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Tawny port-%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Tawny port-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient14`) = UPPER('Tawny port') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Tawny port-%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Tawny port-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient15`) = UPPER('Tawny port') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Tawny port %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Tawny port%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Tawny port-%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Tawny port-%')

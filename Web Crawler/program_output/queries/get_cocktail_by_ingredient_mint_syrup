@@ -1,0 +1,106 @@
+SELECT * FROM `CocktailDetails`
+WHERE 	UPPER(`CocktailDetails`.`strIngredient1`) = UPPER('Mint syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Mint syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Mint syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient2`) = UPPER('Mint syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Mint syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Mint syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient3`) = UPPER('Mint syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Mint syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Mint syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient4`) = UPPER('Mint syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Mint syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Mint syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient5`) = UPPER('Mint syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Mint syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Mint syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient6`) = UPPER('Mint syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Mint syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Mint syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient7`) = UPPER('Mint syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Mint syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Mint syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient8`) = UPPER('Mint syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Mint syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Mint syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient9`) = UPPER('Mint syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Mint syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Mint syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient10`) = UPPER('Mint syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Mint syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Mint syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient11`) = UPPER('Mint syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Mint syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Mint syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient12`) = UPPER('Mint syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Mint syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Mint syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient13`) = UPPER('Mint syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Mint syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Mint syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient14`) = UPPER('Mint syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Mint syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Mint syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient15`) = UPPER('Mint syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Mint syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Mint syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Mint syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Mint syrup-%')

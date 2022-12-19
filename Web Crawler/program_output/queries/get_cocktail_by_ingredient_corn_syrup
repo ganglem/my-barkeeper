@@ -1,0 +1,106 @@
+SELECT * FROM `CocktailDetails`
+WHERE 	UPPER(`CocktailDetails`.`strIngredient1`) = UPPER('Corn Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Corn Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Corn Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient2`) = UPPER('Corn Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Corn Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Corn Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient3`) = UPPER('Corn Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Corn Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Corn Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient4`) = UPPER('Corn Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Corn Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Corn Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient5`) = UPPER('Corn Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Corn Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Corn Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient6`) = UPPER('Corn Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Corn Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Corn Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient7`) = UPPER('Corn Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Corn Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Corn Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient8`) = UPPER('Corn Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Corn Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Corn Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient9`) = UPPER('Corn Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Corn Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Corn Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient10`) = UPPER('Corn Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Corn Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Corn Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient11`) = UPPER('Corn Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Corn Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Corn Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient12`) = UPPER('Corn Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Corn Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Corn Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient13`) = UPPER('Corn Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Corn Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Corn Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient14`) = UPPER('Corn Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Corn Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Corn Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient15`) = UPPER('Corn Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Corn Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Corn Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Corn Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Corn Syrup-%')

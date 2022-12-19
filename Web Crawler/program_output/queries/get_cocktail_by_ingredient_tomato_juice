@@ -1,0 +1,106 @@
+SELECT * FROM `CocktailDetails`
+WHERE 	UPPER(`CocktailDetails`.`strIngredient1`) = UPPER('Tomato Juice') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Tomato Juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Tomato Juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient2`) = UPPER('Tomato Juice') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Tomato Juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Tomato Juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient3`) = UPPER('Tomato Juice') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Tomato Juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Tomato Juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient4`) = UPPER('Tomato Juice') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Tomato Juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Tomato Juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient5`) = UPPER('Tomato Juice') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Tomato Juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Tomato Juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient6`) = UPPER('Tomato Juice') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Tomato Juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Tomato Juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient7`) = UPPER('Tomato Juice') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Tomato Juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Tomato Juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient8`) = UPPER('Tomato Juice') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Tomato Juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Tomato Juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient9`) = UPPER('Tomato Juice') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Tomato Juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Tomato Juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient10`) = UPPER('Tomato Juice') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Tomato Juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Tomato Juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient11`) = UPPER('Tomato Juice') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Tomato Juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Tomato Juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient12`) = UPPER('Tomato Juice') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Tomato Juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Tomato Juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient13`) = UPPER('Tomato Juice') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Tomato Juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Tomato Juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient14`) = UPPER('Tomato Juice') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Tomato Juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Tomato Juice-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient15`) = UPPER('Tomato Juice') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Tomato Juice %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Tomato Juice%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Tomato Juice-%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Tomato Juice-%')

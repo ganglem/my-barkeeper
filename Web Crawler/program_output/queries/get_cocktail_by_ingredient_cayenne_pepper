@@ -1,0 +1,106 @@
+SELECT * FROM `CocktailDetails`
+WHERE 	UPPER(`CocktailDetails`.`strIngredient1`) = UPPER('Cayenne Pepper') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Cayenne Pepper-%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Cayenne Pepper-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient2`) = UPPER('Cayenne Pepper') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Cayenne Pepper-%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Cayenne Pepper-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient3`) = UPPER('Cayenne Pepper') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Cayenne Pepper-%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Cayenne Pepper-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient4`) = UPPER('Cayenne Pepper') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Cayenne Pepper-%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Cayenne Pepper-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient5`) = UPPER('Cayenne Pepper') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Cayenne Pepper-%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Cayenne Pepper-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient6`) = UPPER('Cayenne Pepper') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Cayenne Pepper-%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Cayenne Pepper-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient7`) = UPPER('Cayenne Pepper') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Cayenne Pepper-%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Cayenne Pepper-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient8`) = UPPER('Cayenne Pepper') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Cayenne Pepper-%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Cayenne Pepper-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient9`) = UPPER('Cayenne Pepper') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Cayenne Pepper-%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Cayenne Pepper-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient10`) = UPPER('Cayenne Pepper') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Cayenne Pepper-%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Cayenne Pepper-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient11`) = UPPER('Cayenne Pepper') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Cayenne Pepper-%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Cayenne Pepper-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient12`) = UPPER('Cayenne Pepper') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Cayenne Pepper-%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Cayenne Pepper-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient13`) = UPPER('Cayenne Pepper') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Cayenne Pepper-%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Cayenne Pepper-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient14`) = UPPER('Cayenne Pepper') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Cayenne Pepper-%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Cayenne Pepper-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient15`) = UPPER('Cayenne Pepper') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Cayenne Pepper %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Cayenne Pepper%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Cayenne Pepper-%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Cayenne Pepper-%')

@@ -1,0 +1,77 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "I will be your personal barkeeper",
+          "examplePhrases": [
+            "Alexa launch my barkeeper",
+            "I want to make a cocktail",
+            "help"
+          ],
+          "keywords": [],
+          "name": "My Barkeeper",
+          "description": "My job is to suggest amazing cocktails to you! I can pick a random cocktail or you can tell me which ingredients the cocktail should contain and I\u0027ll try to find a suitable one. If you can\u0027t remember the last cocktail I suggested (because you had one too many), no worries, I can recall. I can also show you all of your favorite cocktails and you can add new ones or remove old ones. Either way, I can tell you how to make that cocktail. And if you feel like you need to be treated like a regular customer, you can connect your amazon account to this skill, so I can call you by your name. Have fun and drink responsibly!\n\n\u003ca href\u003d\"https://de.freepik.com/vektoren-kostenlos/hand-gezeichnete-cocktail-sammlung_8949437.htm#query\u003dcocktail\u0026position\u003d0\u0026from_view\u003dkeyword\"\u003eApp Icon von pikisuperstar\u003c/a\u003e auf Freepik",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "You can start the cocktail making process by saying: \"i want to make a cocktail\"\nThere a more commands:\n- \"show me my last cocktail\"\n- \"add the last/this cocktail to my favorites\"\n- \"show me my favorites\"\n- \"show me a random cocktail\"\n- \"how do I make a tequila sunrise?\"\n- \"I want to make a cocktail by ingredient\"",
+      "category": "ORGANIZERS_AND_ASSISTANTS",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:044735869025:function:61c2a8ca-1d6b-48e6-80f0-22314af97f0c:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:044735869025:function:61c2a8ca-1d6b-48e6-80f0-22314af97f0c:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:044735869025:function:61c2a8ca-1d6b-48e6-80f0-22314af97f0c:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:044735869025:function:61c2a8ca-1d6b-48e6-80f0-22314af97f0c:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [
+      {
+        "name": "alexa::profile:name:read"
+      },
+      {
+        "name": "alexa::profile:email:read"
+      }
+    ],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": true
+    }
+  }
+}

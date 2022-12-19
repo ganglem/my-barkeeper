@@ -1,0 +1,106 @@
+SELECT * FROM `CocktailDetails`
+WHERE 	UPPER(`CocktailDetails`.`strIngredient1`) = UPPER('Blackstrap rum') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Blackstrap rum-%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Blackstrap rum-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient2`) = UPPER('Blackstrap rum') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Blackstrap rum-%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Blackstrap rum-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient3`) = UPPER('Blackstrap rum') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Blackstrap rum-%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Blackstrap rum-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient4`) = UPPER('Blackstrap rum') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Blackstrap rum-%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Blackstrap rum-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient5`) = UPPER('Blackstrap rum') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Blackstrap rum-%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Blackstrap rum-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient6`) = UPPER('Blackstrap rum') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Blackstrap rum-%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Blackstrap rum-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient7`) = UPPER('Blackstrap rum') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Blackstrap rum-%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Blackstrap rum-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient8`) = UPPER('Blackstrap rum') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Blackstrap rum-%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Blackstrap rum-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient9`) = UPPER('Blackstrap rum') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Blackstrap rum-%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Blackstrap rum-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient10`) = UPPER('Blackstrap rum') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Blackstrap rum-%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Blackstrap rum-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient11`) = UPPER('Blackstrap rum') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Blackstrap rum-%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Blackstrap rum-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient12`) = UPPER('Blackstrap rum') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Blackstrap rum-%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Blackstrap rum-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient13`) = UPPER('Blackstrap rum') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Blackstrap rum-%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Blackstrap rum-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient14`) = UPPER('Blackstrap rum') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Blackstrap rum-%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Blackstrap rum-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient15`) = UPPER('Blackstrap rum') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Blackstrap rum %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Blackstrap rum%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Blackstrap rum-%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Blackstrap rum-%')

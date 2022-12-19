@@ -1,0 +1,106 @@
+SELECT * FROM `CocktailDetails`
+WHERE 	UPPER(`CocktailDetails`.`strIngredient1`) = UPPER('Amaretto') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Amaretto-%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Amaretto-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient2`) = UPPER('Amaretto') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Amaretto-%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Amaretto-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient3`) = UPPER('Amaretto') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Amaretto-%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Amaretto-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient4`) = UPPER('Amaretto') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Amaretto-%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Amaretto-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient5`) = UPPER('Amaretto') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Amaretto-%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Amaretto-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient6`) = UPPER('Amaretto') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Amaretto-%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Amaretto-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient7`) = UPPER('Amaretto') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Amaretto-%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Amaretto-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient8`) = UPPER('Amaretto') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Amaretto-%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Amaretto-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient9`) = UPPER('Amaretto') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Amaretto-%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Amaretto-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient10`) = UPPER('Amaretto') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Amaretto-%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Amaretto-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient11`) = UPPER('Amaretto') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Amaretto-%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Amaretto-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient12`) = UPPER('Amaretto') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Amaretto-%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Amaretto-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient13`) = UPPER('Amaretto') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Amaretto-%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Amaretto-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient14`) = UPPER('Amaretto') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Amaretto-%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Amaretto-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient15`) = UPPER('Amaretto') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Amaretto %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Amaretto%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Amaretto-%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Amaretto-%')

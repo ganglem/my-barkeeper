@@ -1,0 +1,106 @@
+SELECT * FROM `CocktailDetails`
+WHERE 	UPPER(`CocktailDetails`.`strIngredient1`) = UPPER('Schweppes Russchian') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Schweppes Russchian-%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Schweppes Russchian-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient2`) = UPPER('Schweppes Russchian') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Schweppes Russchian-%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Schweppes Russchian-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient3`) = UPPER('Schweppes Russchian') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Schweppes Russchian-%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Schweppes Russchian-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient4`) = UPPER('Schweppes Russchian') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Schweppes Russchian-%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Schweppes Russchian-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient5`) = UPPER('Schweppes Russchian') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Schweppes Russchian-%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Schweppes Russchian-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient6`) = UPPER('Schweppes Russchian') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Schweppes Russchian-%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Schweppes Russchian-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient7`) = UPPER('Schweppes Russchian') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Schweppes Russchian-%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Schweppes Russchian-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient8`) = UPPER('Schweppes Russchian') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Schweppes Russchian-%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Schweppes Russchian-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient9`) = UPPER('Schweppes Russchian') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Schweppes Russchian-%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Schweppes Russchian-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient10`) = UPPER('Schweppes Russchian') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Schweppes Russchian-%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Schweppes Russchian-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient11`) = UPPER('Schweppes Russchian') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Schweppes Russchian-%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Schweppes Russchian-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient12`) = UPPER('Schweppes Russchian') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Schweppes Russchian-%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Schweppes Russchian-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient13`) = UPPER('Schweppes Russchian') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Schweppes Russchian-%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Schweppes Russchian-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient14`) = UPPER('Schweppes Russchian') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Schweppes Russchian-%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Schweppes Russchian-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient15`) = UPPER('Schweppes Russchian') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Schweppes Russchian %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Schweppes Russchian%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Schweppes Russchian-%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Schweppes Russchian-%')

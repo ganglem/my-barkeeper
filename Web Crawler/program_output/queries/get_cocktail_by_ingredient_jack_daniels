@@ -1,0 +1,106 @@
+SELECT * FROM `CocktailDetails`
+WHERE 	UPPER(`CocktailDetails`.`strIngredient1`) = UPPER('Jack Daniels') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Jack Daniels-%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Jack Daniels-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient2`) = UPPER('Jack Daniels') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Jack Daniels-%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Jack Daniels-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient3`) = UPPER('Jack Daniels') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Jack Daniels-%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Jack Daniels-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient4`) = UPPER('Jack Daniels') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Jack Daniels-%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Jack Daniels-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient5`) = UPPER('Jack Daniels') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Jack Daniels-%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Jack Daniels-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient6`) = UPPER('Jack Daniels') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Jack Daniels-%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Jack Daniels-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient7`) = UPPER('Jack Daniels') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Jack Daniels-%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Jack Daniels-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient8`) = UPPER('Jack Daniels') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Jack Daniels-%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Jack Daniels-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient9`) = UPPER('Jack Daniels') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Jack Daniels-%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Jack Daniels-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient10`) = UPPER('Jack Daniels') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Jack Daniels-%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Jack Daniels-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient11`) = UPPER('Jack Daniels') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Jack Daniels-%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Jack Daniels-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient12`) = UPPER('Jack Daniels') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Jack Daniels-%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Jack Daniels-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient13`) = UPPER('Jack Daniels') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Jack Daniels-%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Jack Daniels-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient14`) = UPPER('Jack Daniels') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Jack Daniels-%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Jack Daniels-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient15`) = UPPER('Jack Daniels') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Jack Daniels %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Jack Daniels%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Jack Daniels-%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Jack Daniels-%')

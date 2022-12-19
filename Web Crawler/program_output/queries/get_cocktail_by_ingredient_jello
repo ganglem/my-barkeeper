@@ -1,0 +1,106 @@
+SELECT * FROM `CocktailDetails`
+WHERE 	UPPER(`CocktailDetails`.`strIngredient1`) = UPPER('Jello') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Jello-%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Jello-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient2`) = UPPER('Jello') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Jello-%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Jello-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient3`) = UPPER('Jello') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Jello-%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Jello-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient4`) = UPPER('Jello') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Jello-%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Jello-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient5`) = UPPER('Jello') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Jello-%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Jello-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient6`) = UPPER('Jello') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Jello-%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Jello-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient7`) = UPPER('Jello') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Jello-%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Jello-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient8`) = UPPER('Jello') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Jello-%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Jello-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient9`) = UPPER('Jello') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Jello-%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Jello-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient10`) = UPPER('Jello') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Jello-%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Jello-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient11`) = UPPER('Jello') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Jello-%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Jello-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient12`) = UPPER('Jello') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Jello-%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Jello-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient13`) = UPPER('Jello') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Jello-%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Jello-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient14`) = UPPER('Jello') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Jello-%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Jello-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient15`) = UPPER('Jello') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Jello %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Jello%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Jello-%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Jello-%')

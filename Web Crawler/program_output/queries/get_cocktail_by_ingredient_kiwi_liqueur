@@ -1,0 +1,106 @@
+SELECT * FROM `CocktailDetails`
+WHERE 	UPPER(`CocktailDetails`.`strIngredient1`) = UPPER('Kiwi liqueur') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Kiwi liqueur-%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Kiwi liqueur-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient2`) = UPPER('Kiwi liqueur') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Kiwi liqueur-%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Kiwi liqueur-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient3`) = UPPER('Kiwi liqueur') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Kiwi liqueur-%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Kiwi liqueur-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient4`) = UPPER('Kiwi liqueur') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Kiwi liqueur-%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Kiwi liqueur-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient5`) = UPPER('Kiwi liqueur') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Kiwi liqueur-%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Kiwi liqueur-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient6`) = UPPER('Kiwi liqueur') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Kiwi liqueur-%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Kiwi liqueur-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient7`) = UPPER('Kiwi liqueur') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Kiwi liqueur-%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Kiwi liqueur-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient8`) = UPPER('Kiwi liqueur') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Kiwi liqueur-%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Kiwi liqueur-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient9`) = UPPER('Kiwi liqueur') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Kiwi liqueur-%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Kiwi liqueur-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient10`) = UPPER('Kiwi liqueur') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Kiwi liqueur-%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Kiwi liqueur-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient11`) = UPPER('Kiwi liqueur') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Kiwi liqueur-%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Kiwi liqueur-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient12`) = UPPER('Kiwi liqueur') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Kiwi liqueur-%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Kiwi liqueur-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient13`) = UPPER('Kiwi liqueur') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Kiwi liqueur-%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Kiwi liqueur-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient14`) = UPPER('Kiwi liqueur') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Kiwi liqueur-%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Kiwi liqueur-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient15`) = UPPER('Kiwi liqueur') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Kiwi liqueur %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Kiwi liqueur%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Kiwi liqueur-%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Kiwi liqueur-%')

@@ -1,0 +1,106 @@
+SELECT * FROM `CocktailDetails`
+WHERE 	UPPER(`CocktailDetails`.`strIngredient1`) = UPPER('Cider') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Cider-%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Cider-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient2`) = UPPER('Cider') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Cider-%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Cider-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient3`) = UPPER('Cider') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Cider-%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Cider-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient4`) = UPPER('Cider') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Cider-%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Cider-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient5`) = UPPER('Cider') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Cider-%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Cider-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient6`) = UPPER('Cider') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Cider-%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Cider-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient7`) = UPPER('Cider') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Cider-%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Cider-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient8`) = UPPER('Cider') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Cider-%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Cider-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient9`) = UPPER('Cider') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Cider-%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Cider-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient10`) = UPPER('Cider') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Cider-%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Cider-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient11`) = UPPER('Cider') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Cider-%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Cider-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient12`) = UPPER('Cider') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Cider-%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Cider-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient13`) = UPPER('Cider') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Cider-%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Cider-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient14`) = UPPER('Cider') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Cider-%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Cider-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient15`) = UPPER('Cider') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Cider %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Cider%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Cider-%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Cider-%')

@@ -1,0 +1,106 @@
+SELECT * FROM `CocktailDetails`
+WHERE 	UPPER(`CocktailDetails`.`strIngredient1`) = UPPER('Dried Oregano') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Dried Oregano-%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Dried Oregano-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient2`) = UPPER('Dried Oregano') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Dried Oregano-%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Dried Oregano-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient3`) = UPPER('Dried Oregano') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Dried Oregano-%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Dried Oregano-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient4`) = UPPER('Dried Oregano') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Dried Oregano-%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Dried Oregano-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient5`) = UPPER('Dried Oregano') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Dried Oregano-%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Dried Oregano-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient6`) = UPPER('Dried Oregano') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Dried Oregano-%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Dried Oregano-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient7`) = UPPER('Dried Oregano') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Dried Oregano-%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Dried Oregano-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient8`) = UPPER('Dried Oregano') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Dried Oregano-%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Dried Oregano-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient9`) = UPPER('Dried Oregano') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Dried Oregano-%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Dried Oregano-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient10`) = UPPER('Dried Oregano') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Dried Oregano-%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Dried Oregano-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient11`) = UPPER('Dried Oregano') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Dried Oregano-%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Dried Oregano-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient12`) = UPPER('Dried Oregano') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Dried Oregano-%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Dried Oregano-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient13`) = UPPER('Dried Oregano') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Dried Oregano-%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Dried Oregano-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient14`) = UPPER('Dried Oregano') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Dried Oregano-%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Dried Oregano-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient15`) = UPPER('Dried Oregano') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Dried Oregano %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Dried Oregano%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Dried Oregano-%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Dried Oregano-%')

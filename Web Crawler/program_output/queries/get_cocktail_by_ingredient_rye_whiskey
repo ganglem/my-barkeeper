@@ -1,0 +1,106 @@
+SELECT * FROM `CocktailDetails`
+WHERE 	UPPER(`CocktailDetails`.`strIngredient1`) = UPPER('Rye Whiskey') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Rye Whiskey-%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Rye Whiskey-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient2`) = UPPER('Rye Whiskey') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Rye Whiskey-%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Rye Whiskey-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient3`) = UPPER('Rye Whiskey') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Rye Whiskey-%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Rye Whiskey-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient4`) = UPPER('Rye Whiskey') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Rye Whiskey-%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Rye Whiskey-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient5`) = UPPER('Rye Whiskey') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Rye Whiskey-%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Rye Whiskey-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient6`) = UPPER('Rye Whiskey') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Rye Whiskey-%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Rye Whiskey-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient7`) = UPPER('Rye Whiskey') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Rye Whiskey-%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Rye Whiskey-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient8`) = UPPER('Rye Whiskey') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Rye Whiskey-%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Rye Whiskey-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient9`) = UPPER('Rye Whiskey') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Rye Whiskey-%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Rye Whiskey-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient10`) = UPPER('Rye Whiskey') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Rye Whiskey-%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Rye Whiskey-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient11`) = UPPER('Rye Whiskey') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Rye Whiskey-%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Rye Whiskey-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient12`) = UPPER('Rye Whiskey') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Rye Whiskey-%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Rye Whiskey-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient13`) = UPPER('Rye Whiskey') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Rye Whiskey-%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Rye Whiskey-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient14`) = UPPER('Rye Whiskey') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Rye Whiskey-%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Rye Whiskey-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient15`) = UPPER('Rye Whiskey') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Rye Whiskey %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Rye Whiskey%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Rye Whiskey-%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Rye Whiskey-%')

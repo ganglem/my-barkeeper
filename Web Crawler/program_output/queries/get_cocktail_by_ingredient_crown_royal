@@ -1,0 +1,106 @@
+SELECT * FROM `CocktailDetails`
+WHERE 	UPPER(`CocktailDetails`.`strIngredient1`) = UPPER('Crown Royal') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Crown Royal-%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Crown Royal-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient2`) = UPPER('Crown Royal') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Crown Royal-%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Crown Royal-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient3`) = UPPER('Crown Royal') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Crown Royal-%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Crown Royal-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient4`) = UPPER('Crown Royal') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Crown Royal-%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Crown Royal-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient5`) = UPPER('Crown Royal') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Crown Royal-%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Crown Royal-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient6`) = UPPER('Crown Royal') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Crown Royal-%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Crown Royal-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient7`) = UPPER('Crown Royal') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Crown Royal-%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Crown Royal-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient8`) = UPPER('Crown Royal') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Crown Royal-%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Crown Royal-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient9`) = UPPER('Crown Royal') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Crown Royal-%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Crown Royal-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient10`) = UPPER('Crown Royal') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Crown Royal-%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Crown Royal-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient11`) = UPPER('Crown Royal') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Crown Royal-%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Crown Royal-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient12`) = UPPER('Crown Royal') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Crown Royal-%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Crown Royal-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient13`) = UPPER('Crown Royal') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Crown Royal-%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Crown Royal-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient14`) = UPPER('Crown Royal') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Crown Royal-%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Crown Royal-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient15`) = UPPER('Crown Royal') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Crown Royal %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Crown Royal%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Crown Royal-%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Crown Royal-%')

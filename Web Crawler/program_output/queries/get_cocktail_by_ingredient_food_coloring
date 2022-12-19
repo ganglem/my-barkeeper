@@ -1,0 +1,106 @@
+SELECT * FROM `CocktailDetails`
+WHERE 	UPPER(`CocktailDetails`.`strIngredient1`) = UPPER('Food Coloring') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Food Coloring-%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Food Coloring-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient2`) = UPPER('Food Coloring') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Food Coloring-%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Food Coloring-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient3`) = UPPER('Food Coloring') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Food Coloring-%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Food Coloring-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient4`) = UPPER('Food Coloring') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Food Coloring-%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Food Coloring-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient5`) = UPPER('Food Coloring') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Food Coloring-%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Food Coloring-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient6`) = UPPER('Food Coloring') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Food Coloring-%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Food Coloring-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient7`) = UPPER('Food Coloring') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Food Coloring-%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Food Coloring-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient8`) = UPPER('Food Coloring') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Food Coloring-%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Food Coloring-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient9`) = UPPER('Food Coloring') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Food Coloring-%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Food Coloring-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient10`) = UPPER('Food Coloring') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Food Coloring-%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Food Coloring-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient11`) = UPPER('Food Coloring') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Food Coloring-%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Food Coloring-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient12`) = UPPER('Food Coloring') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Food Coloring-%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Food Coloring-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient13`) = UPPER('Food Coloring') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Food Coloring-%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Food Coloring-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient14`) = UPPER('Food Coloring') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Food Coloring-%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Food Coloring-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient15`) = UPPER('Food Coloring') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Food Coloring %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Food Coloring%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Food Coloring-%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Food Coloring-%')

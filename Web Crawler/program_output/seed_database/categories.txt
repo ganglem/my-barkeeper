@@ -1,0 +1,11 @@
+INSERT INTO Category VALUES ('Ordinary Drink');
+INSERT INTO Category VALUES ('Cocktail');
+INSERT INTO Category VALUES ('Shake');
+INSERT INTO Category VALUES ('Other/Unknown');
+INSERT INTO Category VALUES ('Cocoa');
+INSERT INTO Category VALUES ('Shot');
+INSERT INTO Category VALUES ('Coffee / Tea');
+INSERT INTO Category VALUES ('Homemade Liqueur');
+INSERT INTO Category VALUES ('Punch / Party Drink');
+INSERT INTO Category VALUES ('Beer');
+INSERT INTO Category VALUES ('Soft Drink');

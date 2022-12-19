@@ -1,0 +1,106 @@
+SELECT * FROM `CocktailDetails`
+WHERE 	UPPER(`CocktailDetails`.`strIngredient1`) = UPPER('Martini Rosso') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Martini Rosso-%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Martini Rosso-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient2`) = UPPER('Martini Rosso') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Martini Rosso-%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Martini Rosso-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient3`) = UPPER('Martini Rosso') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Martini Rosso-%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Martini Rosso-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient4`) = UPPER('Martini Rosso') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Martini Rosso-%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Martini Rosso-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient5`) = UPPER('Martini Rosso') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Martini Rosso-%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Martini Rosso-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient6`) = UPPER('Martini Rosso') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Martini Rosso-%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Martini Rosso-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient7`) = UPPER('Martini Rosso') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Martini Rosso-%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Martini Rosso-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient8`) = UPPER('Martini Rosso') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Martini Rosso-%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Martini Rosso-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient9`) = UPPER('Martini Rosso') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Martini Rosso-%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Martini Rosso-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient10`) = UPPER('Martini Rosso') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Martini Rosso-%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Martini Rosso-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient11`) = UPPER('Martini Rosso') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Martini Rosso-%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Martini Rosso-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient12`) = UPPER('Martini Rosso') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Martini Rosso-%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Martini Rosso-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient13`) = UPPER('Martini Rosso') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Martini Rosso-%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Martini Rosso-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient14`) = UPPER('Martini Rosso') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Martini Rosso-%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Martini Rosso-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient15`) = UPPER('Martini Rosso') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Martini Rosso %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Martini Rosso%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Martini Rosso-%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Martini Rosso-%')

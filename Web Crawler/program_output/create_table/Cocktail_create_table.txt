@@ -1,0 +1,5 @@
+CREATE TABLE Cocktail(
+	idDrink VARCHAR(255),
+	strDrink VARCHAR(255),
+	strDrinkThumb VARCHAR(255)
+);

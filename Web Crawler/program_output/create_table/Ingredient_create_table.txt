@@ -1,0 +1,3 @@
+CREATE TABLE Ingredient(
+	strIngredient1 VARCHAR(255)
+);

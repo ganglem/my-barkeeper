@@ -1,0 +1,106 @@
+SELECT * FROM `CocktailDetails`
+WHERE 	UPPER(`CocktailDetails`.`strIngredient1`) = UPPER('Whipped Cream') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Whipped Cream-%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Whipped Cream-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient2`) = UPPER('Whipped Cream') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Whipped Cream-%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Whipped Cream-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient3`) = UPPER('Whipped Cream') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Whipped Cream-%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Whipped Cream-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient4`) = UPPER('Whipped Cream') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Whipped Cream-%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Whipped Cream-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient5`) = UPPER('Whipped Cream') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Whipped Cream-%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Whipped Cream-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient6`) = UPPER('Whipped Cream') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Whipped Cream-%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Whipped Cream-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient7`) = UPPER('Whipped Cream') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Whipped Cream-%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Whipped Cream-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient8`) = UPPER('Whipped Cream') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Whipped Cream-%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Whipped Cream-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient9`) = UPPER('Whipped Cream') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Whipped Cream-%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Whipped Cream-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient10`) = UPPER('Whipped Cream') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Whipped Cream-%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Whipped Cream-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient11`) = UPPER('Whipped Cream') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Whipped Cream-%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Whipped Cream-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient12`) = UPPER('Whipped Cream') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Whipped Cream-%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Whipped Cream-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient13`) = UPPER('Whipped Cream') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Whipped Cream-%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Whipped Cream-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient14`) = UPPER('Whipped Cream') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Whipped Cream-%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Whipped Cream-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient15`) = UPPER('Whipped Cream') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Whipped Cream %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Whipped Cream%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Whipped Cream-%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Whipped Cream-%')

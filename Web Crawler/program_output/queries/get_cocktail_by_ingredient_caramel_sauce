@@ -1,0 +1,106 @@
+SELECT * FROM `CocktailDetails`
+WHERE 	UPPER(`CocktailDetails`.`strIngredient1`) = UPPER('Caramel Sauce') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Caramel Sauce-%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Caramel Sauce-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient2`) = UPPER('Caramel Sauce') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Caramel Sauce-%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Caramel Sauce-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient3`) = UPPER('Caramel Sauce') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Caramel Sauce-%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Caramel Sauce-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient4`) = UPPER('Caramel Sauce') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Caramel Sauce-%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Caramel Sauce-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient5`) = UPPER('Caramel Sauce') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Caramel Sauce-%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Caramel Sauce-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient6`) = UPPER('Caramel Sauce') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Caramel Sauce-%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Caramel Sauce-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient7`) = UPPER('Caramel Sauce') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Caramel Sauce-%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Caramel Sauce-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient8`) = UPPER('Caramel Sauce') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Caramel Sauce-%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Caramel Sauce-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient9`) = UPPER('Caramel Sauce') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Caramel Sauce-%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Caramel Sauce-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient10`) = UPPER('Caramel Sauce') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Caramel Sauce-%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Caramel Sauce-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient11`) = UPPER('Caramel Sauce') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Caramel Sauce-%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Caramel Sauce-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient12`) = UPPER('Caramel Sauce') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Caramel Sauce-%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Caramel Sauce-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient13`) = UPPER('Caramel Sauce') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Caramel Sauce-%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Caramel Sauce-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient14`) = UPPER('Caramel Sauce') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Caramel Sauce-%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Caramel Sauce-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient15`) = UPPER('Caramel Sauce') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Caramel Sauce %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Caramel Sauce%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Caramel Sauce-%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Caramel Sauce-%')

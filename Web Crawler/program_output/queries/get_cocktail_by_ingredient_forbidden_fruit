@@ -1,0 +1,106 @@
+SELECT * FROM `CocktailDetails`
+WHERE 	UPPER(`CocktailDetails`.`strIngredient1`) = UPPER('Forbidden Fruit') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Forbidden Fruit-%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Forbidden Fruit-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient2`) = UPPER('Forbidden Fruit') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Forbidden Fruit-%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Forbidden Fruit-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient3`) = UPPER('Forbidden Fruit') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Forbidden Fruit-%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Forbidden Fruit-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient4`) = UPPER('Forbidden Fruit') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Forbidden Fruit-%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Forbidden Fruit-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient5`) = UPPER('Forbidden Fruit') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Forbidden Fruit-%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Forbidden Fruit-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient6`) = UPPER('Forbidden Fruit') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Forbidden Fruit-%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Forbidden Fruit-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient7`) = UPPER('Forbidden Fruit') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Forbidden Fruit-%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Forbidden Fruit-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient8`) = UPPER('Forbidden Fruit') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Forbidden Fruit-%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Forbidden Fruit-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient9`) = UPPER('Forbidden Fruit') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Forbidden Fruit-%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Forbidden Fruit-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient10`) = UPPER('Forbidden Fruit') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Forbidden Fruit-%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Forbidden Fruit-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient11`) = UPPER('Forbidden Fruit') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Forbidden Fruit-%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Forbidden Fruit-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient12`) = UPPER('Forbidden Fruit') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Forbidden Fruit-%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Forbidden Fruit-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient13`) = UPPER('Forbidden Fruit') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Forbidden Fruit-%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Forbidden Fruit-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient14`) = UPPER('Forbidden Fruit') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Forbidden Fruit-%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Forbidden Fruit-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient15`) = UPPER('Forbidden Fruit') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Forbidden Fruit %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Forbidden Fruit%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Forbidden Fruit-%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Forbidden Fruit-%')

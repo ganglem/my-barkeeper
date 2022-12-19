@@ -1,0 +1,10 @@
+CREATE TABLE SharedCocktailDetails(
+	id VARCHAR(255),
+	image VARCHAR(255),
+	ingredientsDE TEXT,
+	ingredientsEN TEXT,
+	instructionsDE TEXT,
+	instructionsEN TEXT,
+	name VARCHAR(255),
+	source VARCHAR(255)
+);

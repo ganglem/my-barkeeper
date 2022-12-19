@@ -1,0 +1,106 @@
+SELECT * FROM `CocktailDetails`
+WHERE 	UPPER(`CocktailDetails`.`strIngredient1`) = UPPER('Orgeat Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('% Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%Orgeat Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient1`) LIKE UPPER('%-Orgeat Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient2`) = UPPER('Orgeat Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('% Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%Orgeat Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient2`) LIKE UPPER('%-Orgeat Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient3`) = UPPER('Orgeat Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('% Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%Orgeat Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient3`) LIKE UPPER('%-Orgeat Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient4`) = UPPER('Orgeat Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('% Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%Orgeat Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient4`) LIKE UPPER('%-Orgeat Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient5`) = UPPER('Orgeat Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('% Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%Orgeat Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient5`) LIKE UPPER('%-Orgeat Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient6`) = UPPER('Orgeat Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('% Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%Orgeat Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient6`) LIKE UPPER('%-Orgeat Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient7`) = UPPER('Orgeat Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('% Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%Orgeat Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient7`) LIKE UPPER('%-Orgeat Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient8`) = UPPER('Orgeat Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('% Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%Orgeat Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient8`) LIKE UPPER('%-Orgeat Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient9`) = UPPER('Orgeat Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('% Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%Orgeat Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient9`) LIKE UPPER('%-Orgeat Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient10`) = UPPER('Orgeat Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('% Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%Orgeat Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient10`) LIKE UPPER('%-Orgeat Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient11`) = UPPER('Orgeat Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('% Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%Orgeat Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient11`) LIKE UPPER('%-Orgeat Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient12`) = UPPER('Orgeat Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('% Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%Orgeat Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient12`) LIKE UPPER('%-Orgeat Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient13`) = UPPER('Orgeat Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('% Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%Orgeat Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient13`) LIKE UPPER('%-Orgeat Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient14`) = UPPER('Orgeat Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('% Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%Orgeat Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient14`) LIKE UPPER('%-Orgeat Syrup-%') OR 
+	UPPER(`CocktailDetails`.`strIngredient15`) = UPPER('Orgeat Syrup') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('% Orgeat Syrup %') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Orgeat Syrup%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%Orgeat Syrup-%') OR
+	UPPER(`CocktailDetails`.`strIngredient15`) LIKE UPPER('%-Orgeat Syrup-%')
